@@ -1,0 +1,13 @@
+Topological Sort (Harry Potter)
+
+Hermione is currently working on an assignment for making the Felix Felicis potion as it is a good idea to have good luck when they are searching for the Horcruxes. The only problem is that this is a very complex potion to make. She wants to speed it up by splitting the potion into multiple parts where each part can be done separately and independently. Unfortunately even though she has managed to figure out these parts she does need to mix them up at some point to get all the intermediate concoctions. Help Hermione get the best way for making the potion.
+
+Input Format
+The first line contains two numbers n,m the number of stages of the potion and relations for making the stages, respectively. The next m lines contain two numbers i,j denoting a relation between the two stages of the potion, which means that to make the i'th stage of the potion Hermione needs the j'th stage to be completed.
+
+Constraints
+1 <= n <= 10^4
+0 <= m <= 10^6
+
+Output Format
+Print the stages in order of completion in a single line separated by a single space. If there are multiple ways you can complete the potion then print the one which is smallest in the lexical order. If Hermione has not made the correct stages and there is no way to complete the potion then print "-1" without the quotes.

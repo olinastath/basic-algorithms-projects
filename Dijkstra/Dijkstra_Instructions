@@ -1,0 +1,15 @@
+Dijkstra (The Lord of the Rings)
+
+Merry and Pippin are currently in the Fangorn forest with Treebeard and have managed to rally the Ent troops in a fight against Saruman. As the Ents are a slow and steady race they like to refill their supply of the Ent-draught throughout the journey. The forest has many paths with some of them having reservoirs of water for the Ents, while others are dry and parched from the fires of the Orcs. The dry roads reduce the morale of the Ents and get them riled up. Treebeard wants the Ents to have a cool head so that they don't make any hasty decisions and rush into battle.
+Help Merry and Pippin decide which path to take so that they can go through at least one reservoir and avoid as many dry roads as possible.
+
+Input Format
+The first line contains two numbers n, m: The number of crossroads and the number of roads connecting them. The next m lines contains three numbers a, b, c: a road from a to b with c indicating it has the a reservoir of the Ents draught if c is 1 and a parched road if c is 2.
+
+Constraints
+2 <= n <= 10^4
+1 <= m <= 10^6
+1 <= a,b <= n
+
+Output Format
+Print the minimum number of parched roads the Ents would need to pass through to get to Isengard. If there is no path with at least one road with a reservoir print "-1". Assume that they start from vertex number 1 and need to reach vertex number n-1.

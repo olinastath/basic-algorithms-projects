@@ -1,0 +1,18 @@
+DFS (The Lord of the Rings)
+
+The fellowship has decided upon crossing Moria for the paths in the mountains are occupied by wargs. Unfortunately Gandalf is having a hard time remembering the paths inside the great caves as it has been a long time since he has passed through here.
+
+The fellowship is currently being pursued by hordes of orcs and needs to escape as fast as possible from the dungeons. Gandalf has given you the all important task of identifying the perils ahead. As there are too many orcs pursuing the fellowship, if you return to any room where you have previously been, it will be filled with orcs. Gandalf wants you to identify if there is a path which will lead to your doom (by making you visit some room where you already walked through) so that he may take measures to avoid it (assume the passages are one way for simplicity).
+
+Input Format
+The map of Moria is presented as a series of passages which connect two rooms in the great labyrinth.
+The first line has n,m - the number of rooms and number of passages in the kingdom. The next  lines have two numbers a,b which tell that there is a passage from a to b.
+
+Constraints
+1 <= n <= 10^4
+0 <= m <= 10^6
+a,bε[1,n]
+
+Output Format
+In the first line print "0" if there is no such loop or else print "1".
+In the next line print a series of rooms which have passages leading back to a previous room. Print them in a single line seperated by a single space, if it exists.
